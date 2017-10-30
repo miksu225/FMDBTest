@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC25A4151F84B8EE00D74BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC25A4141F84B8EE00D74BC2 /* AppDelegate.swift */; };
+		EC25A4171F84B8EE00D74BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC25A4161F84B8EE00D74BC2 /* ViewController.swift */; };
+		EC25A41A1F84B8EE00D74BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC25A4181F84B8EE00D74BC2 /* Main.storyboard */; };
+		EC25A41C1F84B8EE00D74BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC25A41B1F84B8EE00D74BC2 /* Assets.xcassets */; };
+		EC25A41F1F84B8EE00D74BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC25A41D1F84B8EE00D74BC2 /* LaunchScreen.storyboard */; };
+		EC25A4281F84B9CA00D74BC2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC25A4271F84B9CA00D74BC2 /* libsqlite3.tbd */; };
+		EC25A4361F84E21B00D74BC2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A4311F84C13100D74BC2 /* FMDatabase.m */; };
+		EC25A4371F84E22100D74BC2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A4321F84C13200D74BC2 /* FMDatabaseAdditions.m */; };
+		EC25A4381F84E22500D74BC2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A42D1F84C13100D74BC2 /* FMDatabasePool.m */; };
+		EC25A4391F84E22A00D74BC2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A42E1F84C13100D74BC2 /* FMDatabaseQueue.m */; };
+		EC25A43A1F84E22E00D74BC2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A4341F84C13200D74BC2 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC25A4111F84B8EE00D74BC2 /* FMDBTest01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBTest01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC25A4141F84B8EE00D74BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC25A4161F84B8EE00D74BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC25A4191F84B8EE00D74BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC25A41B1F84B8EE00D74BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC25A41E1F84B8EE00D74BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC25A4201F84B8EE00D74BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC25A4271F84B9CA00D74BC2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EC25A42A1F84C12F00D74BC2 /* FMDBTest01-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDBTest01-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC25A42B1F84C13000D74BC2 /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EC25A42C1F84C13000D74BC2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EC25A42D1F84C13100D74BC2 /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EC25A42E1F84C13100D74BC2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EC25A42F1F84C13100D74BC2 /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EC25A4301F84C13100D74BC2 /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EC25A4311F84C13100D74BC2 /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EC25A4321F84C13200D74BC2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EC25A4331F84C13200D74BC2 /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EC25A4341F84C13200D74BC2 /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EC25A4351F84C13200D74BC2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC25A40E1F84B8EE00D74BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC25A4281F84B9CA00D74BC2 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC25A4081F84B8EE00D74BC2 = {
+			isa = PBXGroup;
+			children = (
+				EC25A4291F84C07200D74BC2 /* fmdb */,
+				EC25A4131F84B8EE00D74BC2 /* FMDBTest01 */,
+				EC25A4121F84B8EE00D74BC2 /* Products */,
+				EC25A4261F84B9CA00D74BC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC25A4121F84B8EE00D74BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC25A4111F84B8EE00D74BC2 /* FMDBTest01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC25A4131F84B8EE00D74BC2 /* FMDBTest01 */ = {
+			isa = PBXGroup;
+			children = (
+				EC25A4141F84B8EE00D74BC2 /* AppDelegate.swift */,
+				EC25A4161F84B8EE00D74BC2 /* ViewController.swift */,
+				EC25A4181F84B8EE00D74BC2 /* Main.storyboard */,
+				EC25A41B1F84B8EE00D74BC2 /* Assets.xcassets */,
+				EC25A41D1F84B8EE00D74BC2 /* LaunchScreen.storyboard */,
+				EC25A4201F84B8EE00D74BC2 /* Info.plist */,
+			);
+			path = FMDBTest01;
+			sourceTree = "<group>";
+		};
+		EC25A4261F84B9CA00D74BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC25A4271F84B9CA00D74BC2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC25A4291F84C07200D74BC2 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EC25A4301F84C13100D74BC2 /* FMDatabase.h */,
+				EC25A4311F84C13100D74BC2 /* FMDatabase.m */,
+				EC25A42C1F84C13000D74BC2 /* FMDatabaseAdditions.h */,
+				EC25A4321F84C13200D74BC2 /* FMDatabaseAdditions.m */,
+				EC25A42F1F84C13100D74BC2 /* FMDatabasePool.h */,
+				EC25A42D1F84C13100D74BC2 /* FMDatabasePool.m */,
+				EC25A4351F84C13200D74BC2 /* FMDatabaseQueue.h */,
+				EC25A42E1F84C13100D74BC2 /* FMDatabaseQueue.m */,
+				EC25A42B1F84C13000D74BC2 /* FMDB.h */,
+				EC25A4331F84C13200D74BC2 /* FMResultSet.h */,
+				EC25A4341F84C13200D74BC2 /* FMResultSet.m */,
+				EC25A42A1F84C12F00D74BC2 /* FMDBTest01-Bridging-Header.h */,
+			);
+			name = fmdb;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC25A4101F84B8EE00D74BC2 /* FMDBTest01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC25A4231F84B8EE00D74BC2 /* Build configuration list for PBXNativeTarget "FMDBTest01" */;
+			buildPhases = (
+				EC25A40D1F84B8EE00D74BC2 /* Sources */,
+				EC25A40E1F84B8EE00D74BC2 /* Frameworks */,
+				EC25A40F1F84B8EE00D74BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDBTest01;
+			productName = FMDBTest01;
+			productReference = EC25A4111F84B8EE00D74BC2 /* FMDBTest01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC25A4091F84B8EE00D74BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MikkoS;
+				TargetAttributes = {
+					EC25A4101F84B8EE00D74BC2 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC25A40C1F84B8EE00D74BC2 /* Build configuration list for PBXProject "FMDBTest01" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC25A4081F84B8EE00D74BC2;
+			productRefGroup = EC25A4121F84B8EE00D74BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC25A4101F84B8EE00D74BC2 /* FMDBTest01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC25A40F1F84B8EE00D74BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC25A41F1F84B8EE00D74BC2 /* LaunchScreen.storyboard in Resources */,
+				EC25A41C1F84B8EE00D74BC2 /* Assets.xcassets in Resources */,
+				EC25A41A1F84B8EE00D74BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC25A40D1F84B8EE00D74BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC25A43A1F84E22E00D74BC2 /* FMResultSet.m in Sources */,
+				EC25A4391F84E22A00D74BC2 /* FMDatabaseQueue.m in Sources */,
+				EC25A4381F84E22500D74BC2 /* FMDatabasePool.m in Sources */,
+				EC25A4371F84E22100D74BC2 /* FMDatabaseAdditions.m in Sources */,
+				EC25A4361F84E21B00D74BC2 /* FMDatabase.m in Sources */,
+				EC25A4171F84B8EE00D74BC2 /* ViewController.swift in Sources */,
+				EC25A4151F84B8EE00D74BC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC25A4181F84B8EE00D74BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC25A4191F84B8EE00D74BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC25A41D1F84B8EE00D74BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC25A41E1F84B8EE00D74BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC25A4211F84B8EE00D74BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC25A4221F84B8EE00D74BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC25A4241F84B8EE00D74BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMDBTest01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FMDBTest01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "New Group/FMDBTest01-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC25A4251F84B8EE00D74BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMDBTest01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.FMDBTest01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "New Group/FMDBTest01-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC25A40C1F84B8EE00D74BC2 /* Build configuration list for PBXProject "FMDBTest01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC25A4211F84B8EE00D74BC2 /* Debug */,
+				EC25A4221F84B8EE00D74BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC25A4231F84B8EE00D74BC2 /* Build configuration list for PBXNativeTarget "FMDBTest01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC25A4241F84B8EE00D74BC2 /* Debug */,
+				EC25A4251F84B8EE00D74BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC25A4091F84B8EE00D74BC2 /* Project object */;
+}
